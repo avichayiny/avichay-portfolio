@@ -259,6 +259,7 @@ const StyledProject = styled.li`
       background-color: var(--green);
       border-radius: var(--border-radius);
       vertical-align: middle;
+      overflow: hidden;
 
       &:hover,
       &:focus {
@@ -268,36 +269,24 @@ const StyledProject = styled.li`
         &:before,
         .img {
           background: transparent;
-          filter: none;
+          transform: scale(1.05);
         }
       }
 
       &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 3;
-        transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
+        display: none;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
   }
@@ -322,7 +311,6 @@ const Featured = () => {
               tech
               github
               external
-              cta
             }
             html
           }

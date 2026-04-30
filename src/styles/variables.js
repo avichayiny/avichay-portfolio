@@ -2,20 +2,24 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
-    --navy-shadow: rgba(2, 12, 27, 0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
-    --pink: #f57dff;
-    --blue: #57cbff;
+    --dark-navy: #ffffff; /* רקע ראשי לבן נקי */
+    --navy: #f8fafc; /* רקע משני טיפה אפרפר להפרדה בין אזורים */
+    --light-navy: #f1f5f9; /* כרטיסיות מודגשות */
+    --lightest-navy: #e2e8f0; /* קווי מתאר */
+    --navy-shadow: rgba(0, 0, 0, 0.08); /* צל עדין מאוד שמתאים לרקע לבן */
+    
+    /* צבעי הטקסט - הפוכים כדי שיהיו בולטים על לבן */
+    --dark-slate: #64748b; /* טקסט חלש/הערות */
+    --slate: #475569; /* טקסט רגיל של פסקאות */
+    --light-slate: #334155; /* כותרות משנה */
+    --lightest-slate: #1e293b; /* כותרות בולטות */
+    --white: #0f172a; /* כותרות ראשיות (למרות השם white, זה עכשיו שחור חזק) */
+    
+    /* צבעי ההדגשה */
+    --green: #2563eb; /* כחול רויאל במקום הירוק */
+    --green-tint: rgba(37, 99, 235, 0.08); /* רקע הכפתור כשמעבירים עליו עכבר */
+    --pink: #db2777;
+    --blue: #0284c7;
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
