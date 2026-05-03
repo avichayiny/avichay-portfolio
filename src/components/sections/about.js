@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java', 'Python', 'C++', 'React', 'Node.js', 'Google Cloud Platform (GCP)'];
+  const skills = [
+    'Java',
+    'Python',
+    'PostgreSQL',
+    'REST APIs',
+    'Node.js',
+    'Google Cloud Platform (GCP)',
+    'Docker',
+    'GitHub Actions',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,10 +144,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! I'm Avichay, a Computer Science student with a strong passion for building intelligent systems and robust software architectures. My interest in technology drives me to explore everything from advanced algorithmic pathfinding to modern web development.
+              Hi! I'm Avichay, and I'm currently wrapping up my Computer Science degree at Bar-Ilan
+              University. I have a strong passion for building intelligent systems and robust
+              software architectures, and I simply love finding smart solutions to complex problems.
+              I am a fast learner who embraces challenges, constantly exploring new concepts and
+              adapting to new technologies on the go.
             </p>
             <p>
-              During my studies, I've gained hands-on experience developing end-to-end applications, integrating AI models, and building scalable backend services. I enjoy tackling complex logic problems and translating them into efficient, clean code.
+              Through my studies and personal projects, I've gained hands-on experience developing
+              end-to-end applications, integrating AI models, and architecting reliable backend
+              services using cloud infrastructure. For me, the best part of development is taking
+              that complex logic and turning it into clean, efficient code.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
           </div>

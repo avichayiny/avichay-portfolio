@@ -1,12 +1,14 @@
 ---
-date: '2024-02-01'
+date: '2026-04-04'
 title: 'FireCommand AI'
 cover: './cover.jpg'
 github: 'https://github.com/avichayiny/'
 external: 'https://firecommand-ai-dash-board.onrender.com/'
 tech:
-  - AI / ML
-  - Autonomous Agents
   - Python
+  - PuLP (MILP)
+  - Multi-Agent System
+  - REST APIs
 ---
-A multi-agent system designed for wildfire management and simulation. The system utilizes advanced search heuristics to coordinate autonomous agents in a deterministic environment for optimal crisis response.
+
+An autonomous multi-agent platform for wildfire monitoring and crisis response. It features specialized agents for real-time API data extraction, predictive forecasting, and a central commander agent that applies linear programming to mathematically optimize the dispatch of firefighting units.

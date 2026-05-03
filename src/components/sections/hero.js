@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 30px 4px;
+    margin: 0 0 20px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -37,7 +37,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 540px;
+    max-width: 720px;
   }
 
   .email-link {
@@ -61,18 +61,24 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Avichay Iny.</h2>;
-  const three = <h3 className="big-heading">I build intelligent software & systems.</h3>;
+  const three = (
+    <h3 className="big-heading">Software Developer building backend and AI systems.</h3>
+  );
   const four = (
     <>
       <p>
-       I'm a software developer specializing in backend architecture, AI integrations, and full-stack development. With experience in Python, Java, and cloud platforms, I focus on building scalable applications and autonomous agents.{' '}
+        I’m a Computer Science student in my final semester, with motivation and ambition for
+        software development and problem-solving. My experience spans the full development process:
+        from designing core algorithms and AI integrations to building robust, end-to-end backend
+        solutions. I am currently seeking my first full-time software development position to
+        kickstart my career.{' '}
       </p>
     </>
   );
   const five = (
     <a href="#projects" className="email-link">
-  Check out my projects!
-</a>
+      Check out my projects!
+    </a>
   );
 
   const items = [one, two, three, four, five];

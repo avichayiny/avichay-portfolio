@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Developed an autonomous agent simulation for resource management. The controller solves increasingly complex environments in three stages: Heuristic search for deterministic planning, MDP modeling for stochastic actions, and Reinforcement Learning (ADP) to dynamically optimize strategies in unknown environments.
+A multi-stage AI simulation demonstrating the evolution of decision-making in autonomous agents. The project features an intelligent controller that transitions from deterministic planning using A\* and GBFS, to probabilistic MDP modeling, and finally applies Adaptive Dynamic Programming (RL) to optimize strategies on the fly in unpredictable environments.

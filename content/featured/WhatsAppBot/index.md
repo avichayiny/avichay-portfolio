@@ -9,5 +9,7 @@ tech:
   - Flask
   - PostgreSQL
   - GCP
+  - LLM API
 ---
+
 An autonomous WhatsApp bot deployed on Google Cloud Platform that acts as a smart assistant for Google Calendar management. It processes natural language to schedule, update, and manage events efficiently.

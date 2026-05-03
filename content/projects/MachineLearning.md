@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Built and trained various machine learning models from scratch to perform predictive analysis and data clustering. The project demonstrates strong foundational knowledge in core ML concepts, implementing Neural Networks, Logistic Regression, K-Means, and PCA.
+A practical implementation of core machine learning concepts using PyTorch and scikit-learn. This project demonstrates the ability to build both supervised and unsupervised models—including Neural Networks, Logistic Regression, and K-Means—to perform accurate predictive analysis, PCA, dimensionality reduction, and spatial data clustering.
