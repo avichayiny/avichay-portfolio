@@ -5,7 +5,7 @@ module.exports = {
     title: 'Avichay Iny | Software Developer',
     description:
       'Avichay Iny is a software developer specializing in backend systems, AI/ML solutions, and full-stack development.',
-    siteUrl: 'https://avichay-iny-portfolio.netlify.app/', // No trailing slash allowed!
+    siteUrl: 'https://avichay-iny-portfolio.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Prefer a PNG for social previews
     twitterUsername: '',
   },
