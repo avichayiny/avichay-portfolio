@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Avichay Iny is a software developer specializing in backend systems, AI/ML solutions, and full-stack development.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.svg', // Path to your image in the 'static' folder (updated to SVG with letter A)
     twitterUsername: '',
   },
   plugins: [
