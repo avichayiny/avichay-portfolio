@@ -5,8 +5,8 @@ module.exports = {
     title: 'Avichay Iny | Software Developer',
     description:
       'Avichay Iny is a software developer specializing in backend systems, AI/ML solutions, and full-stack development.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.svg', // Path to your image in the 'static' folder (updated to SVG with letter A)
+    siteUrl: 'https://avichay-iny-portfolio.netlify.app/', // No trailing slash allowed!
+    image: '/og.png', // Prefer a PNG for social previews
     twitterUsername: '',
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Avichay Iny',
+        short_name: 'Avichay Iny',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
