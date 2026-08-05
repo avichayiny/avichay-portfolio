@@ -8,12 +8,16 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
+  /* reserve space for the fixed header so hero content isn't covered */
+  min-height: calc(100vh - var(--nav-height));
   height: 100vh;
-  padding: 0;
+  padding-top: var(--nav-height);
+  padding-bottom: 0;
+  box-sizing: border-box;
 
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
     height: auto;
+    /* keep a small top offset on very small screens */
     padding-top: var(--nav-height);
   }
 
@@ -67,9 +71,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Computer Science student in my final semester, with motivation and ambition for
-        software development and problem-solving. My experience spans the full development process:
-        from designing core algorithms and AI integrations to building robust, end-to-end backend
+        I’m a recent Computer Science graduate, with motivation and ambition for software
+        development and problem-solving. My experience spans the full development process: from
+        designing core algorithms and AI integrations to building robust, end-to-end backend
         solutions. I am currently seeking my first full-time software development position to
         kickstart my career.{' '}
       </p>

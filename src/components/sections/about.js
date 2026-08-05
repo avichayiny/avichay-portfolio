@@ -144,11 +144,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! I'm Avichay, and I'm currently wrapping up my Computer Science degree at Bar-Ilan
-              University. I have a strong passion for building intelligent systems and robust
-              software architectures, and I simply love finding smart solutions to complex problems.
-              I am a fast learner who embraces challenges, constantly exploring new concepts and
-              adapting to new technologies on the go.
+              Hi! I'm Avichay, a recent Computer Science graduate from Bar-Ilan University. I have a
+              strong passion for building intelligent systems and robust software architectures, and
+              I simply love finding smart solutions to complex problems. I am a fast learner who
+              embraces challenges, constantly exploring new concepts and adapting to new
+              technologies on the go.
             </p>
             <p>
               Through my studies and personal projects, I've gained hands-on experience developing
